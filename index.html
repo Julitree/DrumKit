@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Drum Kit</h1>
+    <div class="container">
+        <div class="key" data-key="74">
+            <kbd>J</kbd>
+            <span class="sound">Throat</span>
+        </div>
+        <div class="key" data-key="85">
+            <kbd>U</kbd>
+            <span class="sound">Beep</span>
+        </div>
+        <div class="key" data-key="76">
+            <kbd>L</kbd>
+            <span class="sound">Push</span>
+        </div>
+        <div class="key" data-key="73">
+            <kbd>I</kbd>
+            <span class="sound">Pin</span>
+        </div>
+        <div class="key" data-key="65">
+            <kbd>A</kbd>
+            <span class="sound">Bell</span>
+        </div>
+        <div class="key" data-key="71">
+            <kbd>G</kbd>
+            <span class="sound">Launch</span>
+        </div>
+        <div class="key" data-key="80">
+            <kbd>P</kbd>
+            <span class="sound">snoring</span>
+        </div>
+    </div>
+    <audio data-key="74" class="sonido" src="../javascriptDrumKit/sounds/throatClearing.wav"></audio>
+    <audio data-key="85" class="sonido" src="../javascriptDrumKit/sounds/Beep.wav"></audio>
+    <audio data-key="76" class="sonido" src="../javascriptDrumKit/sounds/push.wav"></audio>
+    <audio data-key="73" class="sonido" src="../javascriptDrumKit/sounds/pinDrop.wav"></audio>
+    <audio data-key="65" class="sonido" src="../javascriptDrumKit/sounds/bell.wav"></audio>
+    <audio data-key="71" class="sonido" src="../javascriptDrumKit/sounds/launch.wav"></audio>
+    <audio data-key="80" class="sonido" src="../javascriptDrumKit/sounds/snoring.wav"></audio>
+    <script src="main.js"></script>
+</body>
+</html>
